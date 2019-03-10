@@ -95,7 +95,6 @@ public class StudentDao {
         }
         return false;
     }
-
     public Student selectStudentById(String studentId) { // 根据ID进行查询
         Connection conn = DbHelper.getConnection();
         String sql = "select * from student where studentId = " + studentId;

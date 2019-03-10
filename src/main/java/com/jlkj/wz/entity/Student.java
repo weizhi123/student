@@ -10,6 +10,7 @@ import java.io.Serializable;
  * @Description:
  */
 public class Student  implements Serializable {
+
     private int id; //序号
 
     private String studentId; //学号
